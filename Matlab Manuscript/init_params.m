@@ -7,6 +7,6 @@ cs = 1000;   % suspension damping (N*s/m)
 kt = 200000; % tire stiffness (N/m)
 ct = 50;     % tire damping (N*s/m)
 
-tstop = 10;  % stop time (s)
+tstop = 20;  % stop time (s)
 save('params.mat','ms','mu','ks','cs','kt','ct','tstop');
 disp('Parameters initialized.');
