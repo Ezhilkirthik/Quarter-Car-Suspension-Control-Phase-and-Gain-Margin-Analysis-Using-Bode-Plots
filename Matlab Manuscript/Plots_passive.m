@@ -1,5 +1,5 @@
 %% Quarter-car: run sim + pull logs safely
-clear; clc;
+clc;
 
 % Parameters (ensure they exist)
 ms = 300; mu = 40; ks = 15000; cs = 1000; kt = 200000; ct = 50;

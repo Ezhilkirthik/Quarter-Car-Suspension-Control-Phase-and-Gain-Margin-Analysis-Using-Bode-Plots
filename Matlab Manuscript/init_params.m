@@ -6,6 +6,7 @@ ks = 15000;  % suspension stiffness (N/m)
 cs = 1000;   % suspension damping (N*s/m)
 kt = 200000; % tire stiffness (N/m)
 ct = 50;     % tire damping (N*s/m)
+c_sky = 2000; %Skyhook controller
 
 tstop = 20;  % stop time (s)
 save('params.mat','ms','mu','ks','cs','kt','ct','tstop');
